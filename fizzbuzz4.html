@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="styles/brand.css">
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+		<title>Mariia Pavlenko - MariiaTravels - Fizz Buzz 4</title>	
+	</head>
+	<body>
+		<div data-include="components/header.html"></div> 
+		<main>
+			<h1>Fizz Buzz 4</h1>		
+			<h3 id="greeting">Welcome to MariiaTravels</h3>
+			<form class="form1">
+				<label for="fname">Your first name:	</label>
+				<input type="text" id="fname"  /><br/>
+				
+				<label for="minitial">Your middle initial:	</label>
+				<input type="text" id="minitial"  /><br/>
+				
+				<label for="lname">Your last name:  </label>
+				<input type="text" id="lname" /><br/>
+				
+				<label for="firstnum">Choose your first number: </label>
+				<input type="number" id="firstnum" value="3" />
+				
+				<label for="firstword">Choose your first Word: </label>
+				<input type="text" id="firstword" value="Hike" /><br/>
+				
+				<label for="secondnum">Choose your second number: </label>
+				<input type="number" id="secondnum" value="5" />
+				
+				<label for="secondword">Choose your second Word: </label>
+				<input type="text" id="secondword" value="Bike" /><br/>
+				
+				<label for="thirdnum">Choose your third number: </label>
+				<input type="number" id="thirdnum" value="7" />
+				
+				<label for="thirdword">Choose your third Word: </label>
+				<input type="text" id="thirdword" value="Swim" /><br/>
+				
+				<label for="totalcount">Choose total number: </label>
+				<input type="number" id="totalcount" value="125" />
+				
+				<label for="default">Choose your default Word: </label>
+				<input type="text" id="default" value="Stay Home" /><br/>
+				
+				<input type="button" value="Submit" onclick="welcome(); loop();"/>
+			</form>		
+			<p id="list">      </p>	
+		</main>
+	
+		<script src="scripts/fizzbuzz4.js"></script>
+   
+		<div data-include="components/footer.html"></div>
+		<script src="scripts/HTMLInclude.js"></script>
+	</body>
+</html>

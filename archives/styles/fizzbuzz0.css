@@ -1,0 +1,37 @@
+body {
+ 
+  margin-left: 150px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #34495E;
+  background-color: #F5CBA7;
+  font-size: 130%;
+}
+
+h1, h2, h3 {
+	font-family: 'Raleway', sans-serif;
+	color: #17202A;
+	text-align: center;
+}
+form {
+	line-height: 30px;
+}
+
+
+h3 {
+	text-align: center;
+}
+.tagline {
+	text-align: center;
+	line-height: 1px;
+}
+li {
+	list-style-type: none;
+	line-height: 40px;
+}
+
+footer {
+	font-size: 75%;
+	text-align: center;
+	
+ 
+}
